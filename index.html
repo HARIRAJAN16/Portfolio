@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website | @Harirajan M</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Harirajan.</a>
+        <i class="fa-solid fa-bars" id="menu"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h2><span>Coder || Web Developer || Software Developer</span></h2>
+            <h3>Hi, I'm Harirajan Mariyappan</h3>
+            <h2>From Karur</h2>
+            <p>I am a final-year Electronics and Communication Engineering student with a keen interest in software development and emerging technologies. </p>
+        
+            <!-- Social Media Links -->
+            <div class="social-media">
+                <a href="mailto:harirajan576@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/harirajan-m"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=6j28mpo"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/HARIRAJAN16"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <!-- CV Download Button -->
+            <a href="HarirajanResume.pdf" class="btn" download>Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="profile-1.jpeg" alt="Profile Image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="profile-2.jpg" alt="Profile Picture">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Frontend Web Developer</h3>
+                <p>
+                    I am Harirajan Mariyappan, a final-year Electronics and Communication Engineering student from Karur.
+                    I have a strong passion for web development and software design. I love building user-friendly websites and exploring emerging technologies like IoT and cloud computing.
+                </p>
+                <p>
+                    I'm constantly learning and enjoy taking part in coding competitions, online certifications, and collaborative projects.
+                </p>
+                <a href="#contact" class="connect-btn">Let's Connect</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2>My Services</h2>
+        <p>I'm passionate about creating impactful digital experiences. Below are the services I offer to help bring your ideas to life:</p>
+        
+        <div class="service-item">
+            <h3>Web Design</h3>
+            <p>Designing beautiful, responsive websites that are user-friendly and visually appealing. I focus on creating designs that enhance the user experience while aligning with your brand identity.</p>
+        </div>
+        
+        <div class="service-item">
+            <h3>UI/UX Design</h3>
+            <p>Crafting seamless and intuitive user interfaces with a focus on user experience (UX). I aim to make digital products not only functional but enjoyable to use, ensuring your users stay engaged.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>Photography</h3>
+            <p>Capturing high-quality images that tell your story and showcase your product or service in the best light. Whether for websites, social media, or branding, I provide photography services tailored to your needs.</p>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <p>Explore some of the projects I have worked on:</p>
+        
+        <div class="project-item">
+            <h3>Project 1: Vehicle Rental System</h3>
+            <p>Developed a vehicle rental system using Java, featuring an admin panel for managing rentals, customer details, and vehicle inventory.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>Project 2: Advanced Security System with ESP32 Camera</h3>
+            <p>Created an advanced security system using ESP32 camera, integrating motion detection and live streaming features with a cloud-based backend for real-time monitoring.</p>
+        </div>
+    </section>
+
+    <section class="achievements" id="achievements">
+        <h2>My Achievements</h2>
+        <div class="achievement-item">
+            <h3>2nd Prize in Promo Flex at Sri Eshwar College of Engineering</h3>
+            <p>I won the 2nd prize in the Promo Flex competition held at Sri Eshwar College. It was an exciting experience showcasing my skills and creativity in a competitive environment.</p>
+            <div class="achievement-images">
+                <div class="image-container">
+                    <img src="promo.jpg" alt="Promo Flex Event Image 1">
+                </div>
+                <div class="image-container">
+                    <img src="promo1.jpg" alt="Promo Flex Event Image 2">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+    
+        <div class="contact-container">
+            <!-- Profile Image -->
+            <div class="profile-img">
+                <img src="profile-3.jpg" alt="Profile Image">
+            </div>
+        
+            <!-- Contact Form -->
+            <form id="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+                
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+                
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="response-message"></div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
